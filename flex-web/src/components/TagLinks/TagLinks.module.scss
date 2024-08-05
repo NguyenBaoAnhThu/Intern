@@ -1,0 +1,27 @@
+.wrapper{
+  width: 770px;
+}
+.tagcloud{
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  flex-wrap: wrap;
+  gap:8px;
+  align-items: center;
+  justify-content: center;
+}
+.tagcloud a {
+  text-decoration: none;
+  padding-inline-start: 10px;
+  padding-inline-end: 10px;
+  border: 1px solid #B2B2B2;
+  font-family: Poppins, sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #B2B2B2;
+  margin-bottom: 8px;
+}
+.tagcloud a:hover{
+  color: #CEA352;
+  border:1px solid #CEA352;
+}

@@ -1,0 +1,142 @@
+/* CSS chính */
+.demo7 a {
+  color: #cea352;
+  background-color: #FAFAFA;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  flex-direction: column;
+}
+
+.content-container {
+  width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 150px;
+  justify-content: center;
+  row-gap: 70px;
+}
+
+.card-post {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.card-post img {
+  width: 370px;
+}
+
+.entry-summary1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 370px;
+  font-size: 14px;
+  font-family: PT Serif, Serif, sans-serif;
+  color: #636363;
+  line-height: 1.8;
+}
+
+.customoverlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.customtittle {
+  font-size: 20px;
+}
+
+
+@media (min-width: 1200px) {
+  .content-container {
+    width: 1170px; 
+  }
+
+  .card-post {
+    width: 400px; 
+  }
+
+  .card-post img {
+    width: 370px; 
+  }
+
+  .entry-summary1 {
+    width: 370px; 
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .content-container {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 100px;
+    row-gap: 50px;
+  }
+
+  .card-post {
+    width: 300px;
+  }
+
+  .card-post img {
+    width: 280px;
+  }
+
+  .entry-summary1 {
+    width: 280px;
+    font-size: 12px;
+  }
+
+  .customtittle {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    padding-bottom: 50px;
+  }
+
+  .content-container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    padding-top: 50px;
+    row-gap: 30px;
+  }
+
+  .card-post {
+    width: 100%;
+  }
+
+  .card-post img {
+    width: 100%;
+  }
+
+  .entry-summary1 {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .customtittle {
+    font-size: 16px;
+  }
+}
+@media (max-width: 374px) {
+  .entry-summary1 {
+    font-size: 8px;
+  }
+
+  .customtittle {
+    font-size: 14px;
+  }
+}

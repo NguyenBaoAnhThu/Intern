@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.customoverlay{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper{
+    width: 770px;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    padding-bottom: 100px;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.entry-summary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 770px;
+    font-size: 14px;
+    font-family: PT Serif, Serif, sans-serif;
+    color: #636363;
+    line-height: 1.8;
+  }
+.entry-summary p {
+    margin-bottom: 30px;
+}
+.entry-summary span {
+  cursor: pointer;
+  color: #CEA352;
+  text-decoration: underline solid #353535;
+}
+.entry-summary span:hover {
+
+  text-decoration: underline solid #cea352;
+}
+.customquotes{
+    font-size: 22px;
+}
+  .entry-summary7-pictures{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    width: 770px;
+    row-gap: 10px;
+    column-gap: 20px;
+  }
+  .entry-summary7-pictures img {
+    width: 243px;
+    height: 180px;
+  }
+  .caption-text1{
+    font-size: 13px;
+    font-family: PT Serif, Serif, sans-serif;
+    color: #b2b2b2;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .navlinkswrapper{
+    padding-bottom: 40px;
+  }
+  .entry-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    flex-wrap: wrap;
+    gap:3px;
+    padding-top: 20px;
+}
+.entry-title, .entry-post-on {
+    text-decoration: none;
+}
+.entry-title{
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    color: #353535  ;
+    text-transform: uppercase;
+    font-weight:500;
+}
+.entry-title:hover{
+  color: #CEA352;
+}
+.entry-post-on{
+  font-family: PT Serif, Serif, sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  color: #B2B2B2;
+}
+.entry-post-on:hover{
+  text-decoration: underline;
+  color: #CEA352;
+
+}

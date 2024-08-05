@@ -1,0 +1,125 @@
+.aboutcustom a {
+    color: #cea352 !important;
+  }
+  
+  .customhome a {
+    color: #4a4a4a !important;
+  }
+  
+  .wrapper {
+    width: 100%;
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+  
+  .custom-post-default a {
+    color: #CEA352 !important;
+    background-color: #FAFAFA;
+  }
+  
+  .container {
+    width: 1170px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+  }
+  
+  .container h4 {
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  
+  .entry-summary {
+    display: flex;
+    flex-direction: column;
+    width: 1170px;
+    font-size: 14px;
+    font-family: PT Serif, Serif, sans-serif;
+    color: #636363;
+    line-height: 1.8;
+  }
+  
+  .entry-summary p {
+    margin-bottom: 30px;
+  }
+  
+  .entry-summary h4 {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    color: #353535;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 1200px) {
+    .container {
+      width: 90%;
+    }
+  
+    .entry-summary {
+      width: 90%;
+    }
+  
+    .container h4 {
+      font-size: 32px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .container {
+      width: 85%;
+      padding-top: 80px;
+    }
+  
+    .entry-summary {
+      width: 85%;
+      font-size: 13px;
+    }
+  
+    .container h4 {
+      font-size: 28px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .wrapper {
+      padding-bottom: 50px;
+    }
+  
+    .container {
+      width: 100%;
+      padding-top: 60px;
+    }
+  
+    .entry-summary {
+      width: 100%;
+      font-size: 12px;
+    }
+  
+    .container h4 {
+      font-size: 24px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      padding-top: 40px;
+    }
+  
+    .entry-summary {
+      font-size: 11px;
+    }
+  
+    .container h4 {
+      font-size: 20px;
+    }
+  }
+  

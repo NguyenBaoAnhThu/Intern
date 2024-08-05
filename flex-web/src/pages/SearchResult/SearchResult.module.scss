@@ -1,0 +1,142 @@
+.wrapper {
+    width: 770px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.container {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+.search-result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.search-term{
+    font-size: 13px;
+    font-family: PT Serif, Serif, sans-serif;
+}
+.post-item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+    &:not(:last-child) {
+      border-bottom: 1px solid #dccfcf; 
+    }
+  }
+.post-link{
+    text-decoration: none;
+}
+.post-title {
+    font-size: 20px;
+    font-family:Poppins, sans-serif ;
+    color: #353535;
+    text-transform: uppercase;
+}
+.post-title:hover{
+    color: #CEA352;
+}
+.post-link{
+    font-size: 14px;
+    font-family: PT Serif, Serif, sans-serif;
+    text-decoration: none;
+    color: #353535;
+    font-style: italic;
+}
+.post-link a{
+    text-decoration: none;
+    color: #CEA352;
+}
+.post-link a:hover{
+    text-decoration: underline;
+}
+.post-content{
+    font-size: 14px;
+    font-family: PT Serif, Serif, sans-serif;
+    color: #636363;
+}
+.no-results{
+    width: 400px;
+    font-size: 14px;
+    font-family: PT Serif, Serif, sans-serif;
+}
+@media (max-width: 1200px) {
+    .wrapper {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .search-term {
+      font-size: 12px;
+    }
+  
+    .post-title {
+      font-size: 18px;
+    }
+  
+    .post-link {
+      font-size: 13px;
+    }
+  
+    .post-content {
+      font-size: 13px;
+    }
+  
+    .no-results {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding-top: 100px;
+    }
+  
+    .search-term {
+      font-size: 11px;
+    }
+  
+    .post-title {
+      font-size: 16px;
+    }
+  
+    .post-link {
+      font-size: 12px;
+    }
+  
+    .post-content {
+      font-size: 12px;
+    }
+  
+    .no-results {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .search-term {
+      font-size: 10px;
+    }
+  
+    .post-title {
+      font-size: 14px;
+    }
+  
+    .post-link {
+      font-size: 11px;
+    }
+  
+    .post-content {
+      font-size: 11px;
+    }
+  
+    .no-results {
+      width: 95%;
+    }
+  }

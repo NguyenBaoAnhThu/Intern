@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.comment-form-field-notes{
+    font-family: "PT Serif", serif;
+    font-size: 11px;
+    color: #636363;
+    margin-top: 40px;
+}
+.commentForm{
+    width:770px ;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.input-inf{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.input-name input,
+.input-email input {
+    font-style: italic;
+    font-family: "PT Serif", serif;
+    padding: 15px;
+    font-size: 11px;
+    background-color: #f7f7f9;
+    width: 370px;
+    height: 37px;
+    border: none;
+}
+
+.input-comment textarea {
+    width: 100%;
+    font-style: italic;
+    font-family: "PT Serif", serif;
+    padding: 15px;
+    font-size: 11px;
+    background-color: #f7f7f9;
+    border: none;
+    height: 138px;
+    margin-bottom: 30px;
+}
+
+.form-submit >button {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    height: 37px;
+    text-transform: uppercase;
+    background-color: #cea352;
+    color: #f7f7f9;
+    font-size: 11px;
+    letter-spacing: 1px;
+    border: none;
+}
+.form-submit >button:hover {
+    background-color: #040406;
+}
+.error-message-general {
+    border: 2px solid #e09915;
+    color: #636363;
+    margin-top: 25px;
+    font-family: "PT Serif", serif;
+    font-size: 14px;
+    padding: 5px;
+}
+.error-message{
+    font-family: "PT Serif", serif;
+    font-size: 14px;
+    color: #dc3232;
+}
+.success-message {
+    border: 2px solid #4caf50;
+    color: #4caf50;
+    margin-top: 25px;
+    font-family: "PT Serif", serif;
+    font-size: 14px;
+    padding: 5px;
+}

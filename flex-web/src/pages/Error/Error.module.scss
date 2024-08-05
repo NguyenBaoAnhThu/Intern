@@ -1,0 +1,29 @@
+.wrapper {
+    width: 100%;
+    height: 100vh;  
+    background-color: #f1f1f1;  
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.error-form{
+    padding: 40px;
+    width: 766px;
+    height: 146px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.error-form p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.nav-next a{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    color: #135e96;
+}
+.icon{
+    font-size: 8px;
+    color: #135e96;
+}

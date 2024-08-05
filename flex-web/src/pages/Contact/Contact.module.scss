@@ -1,0 +1,234 @@
+.customcontact a  {
+    color: #cea352 !important;
+}
+.customhome a {
+  color: #4a4a4a !important;
+}
+.wrapper {
+    width: 100%;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container {
+    width: 1170px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+.side-bar-right {
+    width: 340px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sidebar-main {
+    padding: 20px;
+}
+
+h1 {
+    word-wrap: break-word;
+}
+//////
+
+.widget-title {
+    width: 100%;
+    height: 37px;
+    border: 1px solid #CEA352;
+    font-family: Poppins, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+
+  .portrait-author{
+    border-radius: 50%;
+  }
+  .inf-author{
+    width: 320px;
+    font-size: 14px;
+    text-align: center;
+    font-family: PT Serif, Serif, sans-serif;
+    color: #4a4a4a;
+    line-height: 2;
+  }
+  .mom-blogger{
+    font-family: Poppins, sans-serif;
+    color: #CEA352;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-decoration: none;
+  }
+  .mom-blogger:hover{
+    text-decoration: underline;
+  }
+
+  //////
+  .image-list-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .image-list {
+    list-style-type: none; 
+    display: flex;
+    gap: 20px; 
+    margin: 0; 
+    padding: 0; 
+    max-width: 100%; 
+    flex-wrap: wrap; 
+}
+
+
+.list-social {
+    display: flex;
+    list-style-type: none;
+    gap: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon {
+    display: inline-block; 
+  }
+  
+  .icon a {
+    color: #4a4a4a;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+  }
+  
+  .icon a:hover {
+    color: #CEA352;
+  }
+  /////
+  .contact{
+    width: 770px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+  }
+  .contact h2{
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+  }
+  .entry-summary1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;
+    font-family: PT Serif, Serif, sans-serif;
+    color: #636363;
+    line-height: 1.8;
+}
+.entry-summary2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: PT Serif, Serif, sans-serif;
+    color: #636363;
+    line-height: 1.8;
+    padding: 10px;
+    border-bottom: 1px solid #f8f1f1;
+    border-top: 1px solid #f8f1f1;
+    margin-top: 30px;
+}
+.entry-summary2 span {
+    color: #CEA352;
+    cursor: pointer;
+}
+.entry-summary2 span:hover{
+    text-decoration: underline;
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+
+  .contact {
+    width: 70%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .side-bar-right {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .list-social {
+    gap: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .contact h2 {
+    font-size: 30px;
+  }
+
+  .entry-summary1, .entry-summary2 {
+    font-size: 12px;
+  }
+
+  .inf-author {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .contact h2 {
+    font-size: 25px;
+  }
+
+  .entry-summary1, .entry-summary2 {
+    font-size: 10px;
+  }
+
+  .inf-author {
+    width: 100%;
+  }
+}
